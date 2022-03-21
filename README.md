@@ -4,7 +4,7 @@
 
 1. Install the package in your ongoing project
    ```bash
-   $ yarn install https://github.com/WayTooDigital/express-config
+   $ yarn add https://github.com/WayTooDigital/express-config
    ```
    Now you will see that your `package.json` file has a new record:
    ```json
