@@ -1,0 +1,21 @@
+{
+  "name": "express-config",
+  "version": "1.0.0",
+  "description": "Easy way to load config variables either from .env and yaml files",
+  "author": "Emilio Arcioni (WayTooDigital)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WayTooDigital/express-config.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0"
+  },
+  "type": "module"
+}
